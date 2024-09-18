@@ -124,7 +124,10 @@ export default function Home() {
               </div>
             </div>
             <div className="col-span-7 ">
-
+              <div className="flex flex-col gap-10 justify-center items-center max-w-[421px] h-full mx-auto">
+                <img src="/images/dcbf373925d18e337c98.svg" className="w-full object-contain"></img>
+                <span className="text-[#adb7b3] text-sm">Chả có ai chơi với Wumpus cả?</span>
+              </div>
             </div>
             <div className="col-span-3 overflow-hidden">
               <div className="p-[16px] border-l-[1px] border-[#3a3c42] h-full">
