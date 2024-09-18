@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-12 bg-[#313338] w-full grid-second">
-            <div className="col-span-2 relative ">
+            <div className="col-span-2 relative bg-[#2b2d31]">
               <div className="left-mess px-2">
                 <ul className="tab-site flex flex-col my-2">
                   <li className="active p-2 rounded-[3px] py-1 cursor-pointer"><div className="flex items-center "><div className="w-[24px] h-[24px] mr-3">
@@ -103,7 +103,6 @@ export default function Home() {
                       <IconPlus></IconPlus>
                     </div>
                 </div>
-                <AvatarOneline isBottom={false} isLeft={true}></AvatarOneline>
                 <AvatarOneline isBottom={false} isLeft={true}></AvatarOneline>
                 <AvatarOneline isBottom={false} isLeft={true}></AvatarOneline>
                 <AvatarOneline isBottom={false} isLeft={true}></AvatarOneline>

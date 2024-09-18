@@ -81,10 +81,17 @@
 .tab-bar li{
     text-align: center;
     min-width: 40px;
+    transition: 0.2s all;
 }
 .tab-bar li.active{
     background-color: #43444b;
     color: #FFF;
+}
+
+.tab-bar li:not(.active):hover{
+    background-color: #43444b;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .tool-bar li div:hover svg path{
